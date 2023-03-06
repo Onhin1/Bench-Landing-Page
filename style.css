@@ -153,8 +153,12 @@ body {
     font-size: 14px;
 }
 .footer a span{
+    text-decoration: none;
     color: #fff;
     font-weight: 600;
+}
+.footer a span:hover{
+    text-decoration: 2px underline #fff;
 }
 /* Responsive media query styling start */
 @media (max-width: 1100px) {
